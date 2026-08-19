@@ -43,6 +43,21 @@ Run `npm audit` for details
 - i tried again to run it and i had the same error
 - i though of writing a GET request to check the status as said on the README file "GET /health returns {"status":"ok"}."
 - I went to server.js file, and saw that the PORT variable was 300 instead of 3000. Once i added that extra 0, the website loaded.
+- after closing the app through terminal, my changes did not save.
+- these are errors I found with 5 minutes of just testing functionality
+
+
+
+- played around with the application and found a few errors with behaviour
+- Delete button works 
+- Done button does not work and gives a 404 error
+- assuming done button puts a strikethrough an item
+- adding a new item works (gives a 304)
+- cannot delete last item (list cannot be empty basically)
+- found another one, you can add empty items to the list.
+- char limit?, this doesn't break the app, but increases the width of the screen and looks messy.
+- i fixed the delete and done buttons
+- need to fix the empty to dos 
 
 
 ## 1. What was broken
